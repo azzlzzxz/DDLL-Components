@@ -2,8 +2,8 @@
  * @Author: xinxu
  * @Date: 2023-02-12 13:01:59
  * @LastEditors: xinxu
- * @LastEditTime: 2023-02-12 16:14:25
- * @FilePath: /DDLL-Components/.dumirc.ts
+ * @LastEditTime: 2023-02-13 22:32:00
+ * @FilePath: /DDLL-Components/.umirc.ts
  */
 import { defineConfig } from 'dumi';
 import { readdirSync } from 'fs';
@@ -16,6 +16,8 @@ const pkgList = readdirSync(join(__dirname, 'packages')).filter(
 const tailPkgList = pkgList
   .map((path) => [join('packages', path, 'src')])
   .reduce((acc, val) => acc.concat(val), []);
+
+console.log(tailPkgList);
 
 const alias = pkgList.reduce((pre, pkg) => {
   pre[`@ant-design/pro-${pkg}`] = join(__dirname, 'packages', pkg, 'src');
