@@ -1,7 +1,7 @@
 {
   "name": "ddll-components",
   "version": "0.0.1",
-  "description": "咚咚邻里业务组件库",
+  "description": "业务组件库",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",

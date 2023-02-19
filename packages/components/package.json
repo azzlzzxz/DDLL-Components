@@ -5,7 +5,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "http://gitlab.fenxianglife.com/baseFE/ddll-components.git"
+    "url": "git+https://github.com/azzlzzxz/DDLL-Components.git"
   },
   "license": "ISC",
   "author": "xinxu <azzlzzxz@gmail.com>",
