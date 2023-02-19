@@ -1,10 +1,14 @@
 {
   "name": "@ddll/form",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "xinxu <azzlzzxz@gmail.com>",
-  "homepage": "https://github.com/azzlzzxz/DDLL-Components#readme",
+  "version": "1.0.1",
+  "description": "自定义表单",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.fenxianglife.com/baseFE/ddll-components.git"
+  },
   "license": "ISC",
+  "author": "xinxu <azzlzzxz@gmail.com>",
   "main": "lib/form.js",
   "directories": {
     "lib": "lib",
@@ -15,17 +19,10 @@
     "es",
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/azzlzzxz/DDLL-Components.git"
-  },
   "scripts": {
     "test": "node ./__tests__/@ddll/form.test.js"
   },
-  "bugs": {
-    "url": "https://github.com/azzlzzxz/DDLL-Components/issues"
+  "publishConfig": {
+    "access": "public"
   }
 }

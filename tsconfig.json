@@ -1,18 +1,16 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "jsx": "react",
-    "esModuleInterop": true,
-    "types": ["jest"],
     "strict": true,
-    "skipLibCheck": true,
     "declaration": true,
-    // 把组件目录添加到该处
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
     "paths": {
-      "@ddll/form": ["./packages/form/src/index.tsx"],
-      "@ddll/buton": ["./packages/button/src/index.tsx"]
+      "@@/*": ["dumi/tmp/*"],
+      "@ddll/form": ["packages/form/src/index.tsx"],
+      "@ddll/components": ["./packages/components/src/index.tsx"]
     }
-  }
+  },
+  "include": ["dumi/**/*", ".dumirc.ts", "src/**/*"]
 }

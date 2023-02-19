@@ -1,10 +1,14 @@
 {
   "name": "@ddll/components",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
-  "author": "xinxu <azzlzzxz@gmail.com>",
-  "homepage": "https://github.com/azzlzzxz/DDLL-Components#readme",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.fenxianglife.com/baseFE/ddll-components.git"
+  },
   "license": "ISC",
+  "author": "xinxu <azzlzzxz@gmail.com>",
   "main": "lib/components.js",
   "directories": {
     "lib": "lib",
@@ -13,17 +17,10 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/azzlzzxz/DDLL-Components.git"
-  },
   "scripts": {
     "test": "node ./__tests__/@ddll/components.test.js"
   },
-  "bugs": {
-    "url": "https://github.com/azzlzzxz/DDLL-Components/issues"
+  "publishConfig": {
+    "access": "public"
   }
 }
