@@ -6,6 +6,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "files": [
+    "dist",
+    "es"
+  ],
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
