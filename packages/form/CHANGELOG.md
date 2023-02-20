@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/azzlzzxz/DDLL-Components/compare/@ddll/form@1.1.0...@ddll/form@1.2.0) (2023-02-20)
+
+### Features
+
+- 打包配置 ([4abc6e8](https://github.com/azzlzzxz/DDLL-Components/commit/4abc6e8d985db039d75d2baa1c8bf02059f2f24f))
+- gitHead ([d9f9d89](https://github.com/azzlzzxz/DDLL-Components/commit/d9f9d89192a6a255a4706a655272939c9ab27c35))
+
 # 1.1.0 (2023-02-19)
 
 ### Features
