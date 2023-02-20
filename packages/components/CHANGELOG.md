@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/azzlzzxz/DDLL-Components/compare/@ddll/components@1.3.0...@ddll/components@1.4.0) (2023-02-20)
+
+### Features
+
+- 更改 ([7f35032](https://github.com/azzlzzxz/DDLL-Components/commit/7f350322b3437782763bba9d3bf42deaa6acd792))
+
 # [1.3.0](https://github.com/azzlzzxz/DDLL-Components/compare/@ddll/components@1.2.0...@ddll/components@1.3.0) (2023-02-20)
 
 ### Features
