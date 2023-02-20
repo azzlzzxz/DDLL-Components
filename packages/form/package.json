@@ -9,7 +9,9 @@
   },
   "license": "ISC",
   "author": "xinxu <azzlzzxz@gmail.com>",
-  "main": "lib/form.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,6 +22,7 @@
     "dist"
   ],
   "scripts": {
+    "build": "father build",
     "test": "node ./__tests__/@ddll/form.test.js"
   },
   "publishConfig": {
