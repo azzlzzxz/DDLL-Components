@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "业务组件库",
   "license": "MIT",
-  "workspaces": [
-    "packages/*"
-  ],
   "files": [
     "dist",
     "es"
