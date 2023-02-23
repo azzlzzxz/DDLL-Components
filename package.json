@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "father build",
+    "build-components": "pnpm --filter \"./packages/**/**\" build",
     "build:watch": "father dev",
     "dev": "dumi dev",
     "docs:build": "dumi build",

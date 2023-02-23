@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/ddll-components.svg?style=flat)](https://npmjs.org/package/ddll-components)
 [![NPM downloads](http://img.shields.io/npm/dm/ddll-components.svg?style=flat)](https://npmjs.org/package/ddll-components)
 
-咚咚邻里业务组件库
+业务组件库
 
 ## Usage
 
