@@ -2,7 +2,7 @@
 
 ## fx-components
 
-咚咚邻里业务组件库
+业务组件库
 
 ## 静态网站脚手架架对比 dumi 与 Storybook
 

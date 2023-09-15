@@ -1,7 +1,7 @@
 {
   "name": "fx-components",
   "version": "1.0.0",
-  "description": "咚咚邻里业务组件库",
+  "description": "业务组件库",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -99,7 +99,7 @@
     "react-dom": ">=16.9.0"
   },
   "publishConfig": {
-    "registry": "http://nexus.fenxianglife.com/repository/npm-private"
+    "registry": ""
   },
   "authors": "xinxu <azzlzzxz@gmail.com>"
 }
