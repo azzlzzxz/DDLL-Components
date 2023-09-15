@@ -2,8 +2,8 @@
  * @Author: xinxu
  * @Date: 2023-02-13 18:19:37
  * @LastEditors: xinxu
- * @LastEditTime: 2023-02-20 19:44:11
- * @FilePath: /DDLL-Components/.fatherrc.base.ts
+ * @LastEditTime: 2023-02-19 13:39:21
+ * @FilePath: /fx-components/.fatherrc.ts
  */
 import { defineConfig } from 'father';
 

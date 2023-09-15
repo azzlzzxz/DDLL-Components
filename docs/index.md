@@ -1,8 +1,8 @@
 ---
-title: DDLL-Component - 页面级别的前端组件
+title: FX-Component - 页面级别的前端组件
 hero:
-  title: DDLL-Component
-  description: 🏆 让中后台开发更简单
+  title: FX-Component
+  description: 🏆 让后台开发更简单
   actions:
     - text: 🏮🏮 快速开始 →
       link: /docs

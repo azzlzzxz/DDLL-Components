@@ -7,10 +7,12 @@
     "jsx": "react",
     "baseUrl": "./",
     "paths": {
-      "@@/*": ["dumi/tmp/*"],
-      "@ddll/form": ["packages/form/src/index.tsx"],
-      "@ddll/components": ["./packages/components/src/index.tsx"]
+      "@@/*": [".dumi/tmp/*"],
+      "@fx/form": ["packages/form/src/index.tsx"],
+      "@fx/components": ["packages/components/src/index.tsx"],
+      "@fx/table": ["packages/table/src/index.tsx"],
+      "@fx/boundary": ["packages/boundary/src/index.tsx"]
     }
   },
-  "include": ["dumi/**/*", ".dumirc.ts", "src/**/*"]
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
 }

@@ -64,7 +64,7 @@ const Toc: FC = () => {
                   items={anchorItems.map((item) => ({
                     href: `#${item.id}`,
                     title: location.pathname.includes('changelog')
-                      ? item.title.replace('DDLL-Components', '')
+                      ? item.title.replace('FX-Components', '')
                       : item.title,
                     key: item.id,
                     children: item.children?.map((child) => ({
@@ -86,7 +86,7 @@ const Toc: FC = () => {
           items={anchorItems.map((item) => ({
             href: `#${item.id}`,
             title: location.pathname.includes('changelog')
-              ? item.title.replace('@ant-design/pro-components@', 'v')
+              ? item.title.replace('FX-Components', 'v')
               : item.title,
             key: item.id,
             children: item.children?.map((child) => ({

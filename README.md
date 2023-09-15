@@ -1,40 +1,29 @@
-# ddll-components
+# fx-components
 
-[![NPM version](https://img.shields.io/npm/v/ddll-components.svg?style=flat)](https://npmjs.org/package/ddll-components)
-[![NPM downloads](http://img.shields.io/npm/dm/ddll-components.svg?style=flat)](https://npmjs.org/package/ddll-components)
+咚咚邻里业务组件库
 
-业务组件库
+当前 FX-Component 每一个组件都是一个独立的包，你需要在你的项目中安装对应的 npm 包并使用。
 
-## Usage
-
-TODO
-
-## Options
-
-TODO
-
-## Development
-
-```bash
-# install dependencies
-$ pnpm install
-
-# develop library by docs demo
-$ pnpm start
-
-# build library source code
-$ pnpm run build
-
-# build library source code in watch mode
-$ pnpm run build:watch
-
-# build docs
-$ pnpm run docs:build
-
-# check your project for potential problems
-$ pnpm run doctor
+```shell
+$ npm i @fx/components --save
 ```
 
-## LICENSE
+本地运行调试
 
-MIT
+```shell
+$ pnpm run dev
+```
+
+本地打包
+
+1. 组件库打包
+
+```shell
+$ pnpm run build-components
+```
+
+2. 文档打包
+
+```shell
+$ pnpm run docs:build
+```

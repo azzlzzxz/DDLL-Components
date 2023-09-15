@@ -2,8 +2,8 @@
  * @Author: xinxu
  * @Date: 2023-02-13 21:04:57
  * @LastEditors: xinxu
- * @LastEditTime: 2023-02-13 22:39:39
- * @FilePath: /ddll-components/.dumi/theme/layouts/DocLayout/index.tsx
+ * @LastEditTime: 2023-03-23 10:54:04
+ * @FilePath: /fx-components/.dumi/theme/layouts/DocLayout/index.tsx
  */
 import animateScrollTo from 'animated-scroll-to';
 import { Helmet, useIntl, useLocation } from 'dumi';
@@ -48,9 +48,7 @@ const DocLayout: FC = memo(() => {
     <>
       <Helmet>
         <html lang={intl.locale.replace(/-.+$/, '')} />
-        <title>
-          {fm.title ? `${fm.title} - DDLL Components` : 'DDLL Components'}
-        </title>
+        <title>{fm.title ? `${fm.title}` : 'FX Components'}</title>
         {fm.title && <meta property="og:title" content={fm.title} />}
         {fm.description && <meta name="description" content={fm.description} />}
         {fm.description && (

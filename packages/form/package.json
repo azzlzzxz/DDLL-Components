@@ -1,11 +1,11 @@
 {
-  "name": "@ddll/form",
-  "version": "1.2.0",
+  "name": "@fx/form",
+  "version": "0.0.2",
   "description": "自定义表单",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azzlzzxz/DDLL-Components.git"
+    "url": "http://gitlab.fenxianglife.com/baseFE/fx-components.git"
   },
   "license": "ISC",
   "author": "xinxu <azzlzzxz@gmail.com>",
@@ -22,11 +22,19 @@
     "dist"
   ],
   "scripts": {
-    "build": "father build",
-    "test": "node ./__tests__/@ddll/form.test.js"
+    "build": "father build"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "http://nexus.fenxianglife.com/repository/npm-private"
   },
-  "gitHead": "0e3d5b2e75889fc3776f1fc64cd7813941366d01"
+  "peerDependencies": {
+    "antd": ">=4.23.0",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.8",
+    "rc-resize-observer": "^0.2.1"
+  }
 }

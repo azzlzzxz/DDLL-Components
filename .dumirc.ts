@@ -2,7 +2,7 @@
  * @Author: xinxu
  * @Date: 2023-02-13 18:19:37
  * @LastEditors: xinxu
- * @LastEditTime: 2023-02-14 11:01:25
+ * @LastEditTime: 2023-03-31 10:14:48
  * @FilePath: /ddll-components/.dumirc.ts
  */
 import { defineConfig } from 'dumi';
@@ -16,7 +16,7 @@ const pkgList = readdirSync(join(__dirname, 'packages')).filter(
 );
 
 const alias = pkgList.reduce((pre, pkg) => {
-  pre[`@ddll/${pkg}`] = join(__dirname, 'packages', pkg, 'src');
+  pre[`@fx/${pkg}`] = join(__dirname, 'packages', pkg, 'src');
   return {
     ...pre,
   };
@@ -30,18 +30,16 @@ const tailPkgList = pkgList
   );
 
 export default defineConfig({
-  outputPath: 'docs-dist',
+  outputPath: 'dist',
   alias,
   resolve: {
     docDirs: ['docs'],
     atomDirs: [...tailPkgList],
   },
+  favicons: ['https://ddll.dongdonglinli.com/img/logo.png'],
   themeConfig: {
-    name: 'DDLL-Component',
-    favicon: [
-      'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
-    ],
-    logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
+    name: 'FX-Component',
+    logo: 'https://ddll.dongdonglinli.com/img/logo.png',
     nav: {
       'zh-CN': [
         { title: '文档', link: '/docs' },
@@ -63,8 +61,12 @@ export default defineConfig({
           title: '数据录入',
           children: [
             {
-              title: 'DDLLForm - 高级表单',
+              title: 'FXForm - 自定义表单',
               link: '/components/form',
+            },
+            {
+              title: 'FXogin - 登陆表单',
+              link: '/components/login-form',
             },
           ],
         },
@@ -72,8 +74,26 @@ export default defineConfig({
           title: '数据展示',
           children: [
             {
-              title: 'DDLLTable - 高级表格',
+              title: 'FXTable - 高级表格',
               link: '/components/table',
+            },
+          ],
+        },
+        {
+          title: '边界展示',
+          children: [
+            {
+              title: 'FXBoundary - 边界',
+              link: '/components/boundary',
+            },
+          ],
+        },
+        {
+          title: '上传展示',
+          children: [
+            {
+              title: 'FXUpload - 上传',
+              link: '/components/upload',
             },
           ],
         },

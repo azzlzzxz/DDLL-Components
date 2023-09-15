@@ -2,13 +2,12 @@
  * @Author: xinxu
  * @Date: 2023-02-12 15:41:09
  * @LastEditors: xinxu
- * @LastEditTime: 2023-02-20 21:13:16
- * @FilePath: /DDLL-Components/packages/components/src/index.tsx
+ * @LastEditTime: 2023-03-22 12:31:48
+ * @FilePath: /fx-components/packages/components/src/index.tsx
  */
-import React from 'react';
 
-const Component = () => {
-  return <div>Componentsssxxxs</div>;
-};
-
-export default Component;
+export * from '@fx/boundary';
+export * from '@fx/form';
+export * from '@fx/table';
+// @ts-ignore
+export * from './version';

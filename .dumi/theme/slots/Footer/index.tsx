@@ -2,8 +2,8 @@
  * @Author: xinxu
  * @Date: 2023-02-13 21:04:57
  * @LastEditors: xinxu
- * @LastEditTime: 2023-02-13 22:24:16
- * @FilePath: /ddll-components/.dumi/theme/slots/Footer/index.tsx
+ * @LastEditTime: 2023-03-23 10:04:02
+ * @FilePath: /fx-components/.dumi/theme/slots/Footer/index.tsx
  */
 import { Divider, Typography } from 'antd';
 import { createStyles, useResponsive } from 'antd-style';
@@ -58,8 +58,8 @@ const Footer: FC = () => {
         <Divider type={'vertical'} style={{ margin: '0 8px' }} />
         <Typography.Link href="https://ant.design/">Ant Design</Typography.Link>
         <Divider type={'vertical'} style={{ margin: '0 8px' }} />
-        <Typography.Link href="https://kitchen.alipay.com/">
-          kitchen
+        <Typography.Link href="https://procomponents.ant.design/">
+          Ant Design ProComponent
         </Typography.Link>
       </Flexbox>
     </Center>

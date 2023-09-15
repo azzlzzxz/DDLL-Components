@@ -1,11 +1,11 @@
-# `@ddll/components`
+# `@fx/components`
 
 > TODO: description
 
 ## Usage
 
 ```
-const components = require('@ddll/components');
+const components = require('@fx/components');
 
 // TODO: DEMONSTRATE API
 ```

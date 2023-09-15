@@ -1,11 +1,11 @@
 {
-  "name": "@ddll/components",
-  "version": "1.4.0",
+  "name": "@fx/components",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azzlzzxz/DDLL-Components.git"
+    "url": "http://gitlab.fenxianglife.com/baseFE/fx-components.git"
   },
   "license": "ISC",
   "author": "xinxu <azzlzzxz@gmail.com>",
@@ -23,10 +23,14 @@
   ],
   "scripts": {
     "build": "father build",
-    "test": "node ./__tests__/@ddll/components.test.js"
+    "test": "node ./__tests__/@fx/components.test.js"
+  },
+  "dependencies": {
+    "@fx/boundary": "0.0.2",
+    "@fx/form": "0.0.2",
+    "@fx/table": "0.0.2"
   },
   "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "0e3d5b2e75889fc3776f1fc64cd7813941366d01"
+    "registry": "http://nexus.fenxianglife.com/repository/npm-private"
+  }
 }

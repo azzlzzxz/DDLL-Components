@@ -1,3 +1,10 @@
+/*
+ * @Author: xinxu
+ * @Date: 2023-03-15 14:22:01
+ * @LastEditors: xinxu
+ * @LastEditTime: 2023-03-22 17:05:26
+ * @FilePath: /fx-components/.dumi/theme/slots/Hero/index.tsx
+ */
 import { Button, ConfigProvider } from 'antd';
 import { Link } from 'dumi';
 import isEqual from 'fast-deep-equal';

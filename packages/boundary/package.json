@@ -1,0 +1,26 @@
+{
+  "name": "@fx/boundary",
+  "version": "0.0.2",
+  "description": "",
+  "author": "xinxu <azzlzzxz@gmail.com>",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "scripts": {
+    "build": "father build"
+  },
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.fenxianglife.com/baseFE/fx-components.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://nexus.fenxianglife.com/repository/npm-private"
+  }
+}

@@ -1,3 +1,10 @@
+/*
+ * @Author: xinxu
+ * @Date: 2023-03-15 14:22:01
+ * @LastEditors: xinxu
+ * @LastEditTime: 2023-03-23 11:02:40
+ * @FilePath: /fx-components/.dumi/theme/slots/Logo/index.tsx
+ */
 import { Link, useLocale } from 'dumi';
 import isEqual from 'fast-deep-equal';
 import { memo, type FC } from 'react';

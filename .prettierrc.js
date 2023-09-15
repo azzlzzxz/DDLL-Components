@@ -1,10 +1,3 @@
-/*
- * @Author: xinxu
- * @Date: 2023-02-12 13:01:59
- * @LastEditors: xinxu
- * @LastEditTime: 2023-02-19 14:15:28
- * @FilePath: /DDLL-Components/.prettierrc.js
- */
 module.exports = {
   pluginSearchDirs: false,
   plugins: [

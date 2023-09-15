@@ -3,7 +3,7 @@
  * @Date: 2023-02-13 21:04:57
  * @LastEditors: xinxu
  * @LastEditTime: 2023-02-14 09:55:40
- * @FilePath: /ddll-components/.dumi/theme/slots/Sidebar/index.tsx
+ * @FilePath: /fx-components/.dumi/theme/slots/Sidebar/index.tsx
  */
 import { NavLink, useLocation } from 'dumi';
 import isEqual from 'fast-deep-equal';

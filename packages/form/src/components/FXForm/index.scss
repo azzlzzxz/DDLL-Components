@@ -1,0 +1,20 @@
+.filter {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-radius: 2px;
+  padding: 20px 16px 0;
+  &-collapse {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  /* antd 样式处理 */
+  .ant-picker-range {
+    display: flex;
+  }
+
+  .ant-col {
+    min-width: 0;
+  }
+}

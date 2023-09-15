@@ -1,18 +1,11 @@
 /*
  * @Author: xinxu
  * @Date: 2023-02-12 15:08:33
- * @LastEditors: xinxu
- * @LastEditTime: 2023-02-13 21:50:41
- * @FilePath: /ddll-components/packages/form/src/index.tsx
+ * @LastEditors: 阿鸿
+ * @LastEditTime: 2023-03-13 10:32:42
+ * @FilePath: /fx-components/packages/form/src/index.tsx
  */
-import React from 'react';
+import FXForm from './components/FXForm';
+import FXoginForm from './components/LoginForm';
 
-const Form = () => {
-  return (
-    <div>
-      <input type="text" placeholder="请输入您的大名" />
-    </div>
-  );
-};
-
-export default Form;
+export { FXoginForm, FXForm };

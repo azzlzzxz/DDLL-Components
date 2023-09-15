@@ -3,7 +3,7 @@
  * @Date: 2023-02-13 21:04:57
  * @LastEditors: xinxu
  * @LastEditTime: 2023-02-13 22:17:08
- * @FilePath: /ddll-components/.dumi/theme/slots/Features/index.tsx
+ * @FilePath: /fx-components/.dumi/theme/slots/Features/index.tsx
  */
 import { ArrowRightOutlined } from '@ant-design/icons';
 import { Tag } from 'antd';
